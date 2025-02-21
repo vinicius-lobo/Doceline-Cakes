@@ -1,0 +1,51 @@
+/*estilização do BODY da página*/
+body {
+    margin: 0%;
+    border: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*estilização do HEADER da página*/
+header {
+    background-color: rgb(238, 167, 173);
+    padding: 20px 0 20px 70px;
+}
+
+
+/*o ponto (.) é usado para criar uma classe nova que não existe // Estilização do logo*/
+.logo {
+    width: 10%;
+    box-shadow: 10px 10px 10px 10px rgb(85, 14, 20);
+    border-radius: 50px;
+}
+
+
+/*Banner do site*/
+.banner {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+/*Estilização de Menu da página*/
+nav {
+    color: white;
+    font-size: 25;
+    right: 50px;
+    top: 50px;
+    position: absolute;
+}
+
+
+nav li {
+    display: inline;
+    margin-right: 45px;
+}
+
+
+/*Estilazação da DIV HEADER*/
+.divHeader {
+    position: relative;
+}
