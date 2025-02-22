@@ -8,7 +8,8 @@ body {
 
 /*estilização do HEADER da página*/
 header {
-    background-color: rgb(238, 167, 173);
+    background-color: rgb(255,31,128);
+    background: linear-gradient(180deg, rgba(255,31,128,1) 0%, rgba(255,202,232,1) 10%, rgba(209,30,107,1) 100%);
     padding: 20px 0 20px 70px;
 }
 
@@ -34,7 +35,7 @@ nav {
     color: white;
     font-size: 25;
     right: 50px;
-    top: 50px;
+    top: 18px;
     position: absolute;
 }
 
@@ -48,4 +49,21 @@ nav li {
 /*Estilazação da DIV HEADER*/
 .divHeader {
     position: relative;
+}
+
+/*Estilização da sessão SOBRE NÓS*/
+.sobre_nos {
+    margin: 0;
+    text-align: justify;
+    width: 60%;
+    margin-left: 20%;
+}
+.img_sobrenos {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+}
+.titulo_sobrenos {
+    text-align: center;
+    clear: left;
 }
