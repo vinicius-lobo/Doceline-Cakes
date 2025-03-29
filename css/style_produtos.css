@@ -1,0 +1,92 @@
+/*BODY PRODUTOS*/
+body{
+    margin: 0;
+    font-family: 'Gill Sans MT';
+}
+/*MENU PRODUTOS*/
+header{
+    background-color: rgb(136, 43, 79);
+}
+.logo{
+    width: 150px;
+    margin-left: 150px;
+}
+.divHeader{
+    position: relative;
+}
+nav li{
+    display: inline;
+    margin-right: 40px;
+}
+nav{
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+/*TITULO*/
+.prod-titulo{
+    list-style: none;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.prod-item::before{
+    content: "🐺";
+}
+.txt-prod{
+    padding-left: 110px;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*CONTAINER DOS CARDS*/
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+/*CARDS*/
+.card{
+    background: rgb(255, 255, 255);
+    width: 360px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0.0,0,0.2);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+.card img{
+    width: 350px;
+    border-radius: 10px;
+}
+.preco{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(0, 197, 0);
+    margin: 10px 0;
+}
+/*RODAPÉ PRODUTOS*/
+footer{
+    width: 100%;
+    background: url("../img/backfooter.png");
+}
+footer p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    color: rgb(136, 43, 79);
+    margin-right: 10px;
+}
+.fLogo{
+    width: 150px;
+    margin-left: 1600px;
+}
+i{
+    color: rgb(136, 43, 79);
+}
